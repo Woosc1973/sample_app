@@ -1,12 +1,19 @@
 
+   <div class="center jumbotron">
    <center>
-    <h1>Sample App</h1>
-    <p>
+    <h1>Welcome to the Sample App</h1>
+    <h2>
     This is the home page for the
     <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a>
     sample application.<br/>
     by Steve WOO TecHouse
     <hr>
     <img src="https://assets.website-files.com/5ba45f48e783e23d362f50ef/5ba5d5299ad7875f2f1dcdde_techouse%202.png">
-    </p>
+    </h2>
    </center>
+   <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.svg", alt: "Rails logo", width: "200px"),
+                      "https://rubyonrails.org/" %>
+                      <hr>
+<%= image_tag('kitten.jpg', alt: "kitten") %>
