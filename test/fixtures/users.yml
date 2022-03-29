@@ -1,1 +1,4 @@
-
+SteveWOO:
+  name: Steve WOO
+  email: woosc2@naver.com
+  password_digest: <%= User.digest('password') %>
